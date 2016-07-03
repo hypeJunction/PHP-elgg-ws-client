@@ -1,0 +1,28 @@
+{
+	"name": "hypejunction/elgg-ws-client",
+	"description": "A simple PHP client for interfacing with Elgg's web services",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "web services", "api"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"ext-json": "*",
+		"ext-curl": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~5.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
